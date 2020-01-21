@@ -1,17 +1,8 @@
 /*
 FONTS
-PRIMARY- font-family: 'Jacques Francois', serif;
+PRIMARY- font-family: 'Crimson Text', serif;
 SECONDARY- font-family: 'Raleway', sans-serif;
 ACCENT- font-family: 'Quicksand', sans-serif;
-
-BACKGROUNDS
-MAIN background-color: rgb(255, 255, 255);
-SECONDARY background-color: rgb(244, 244, 244);
-LIGHT backgrouond-color: rgb(246, 241, 218); (champagne)
-HEAVY background-color: rgb(119, 139, 179); (roof tile blue)
-ACCENT color: #a11a2d; (metro red)
-
-COLORS
 */
 *{
 	margin: 0;
@@ -77,27 +68,32 @@ nav{
 }
 
 .logo{
-	font-family: 'Jacques Francois', serif;
+	font-family: 'Crimson Text', serif;
+	font-weight: 600;
 }
 
 .text{
 	font-family: 'Raleway', sans-serif;
 }
 
-.trouser-img{
-	background-image: url("imgs/trouser-img.jpg");
+.swimwear-img{
+	background-image: url("../img/swimwear.jpg");
+	background-position: center;
 }
 
-.coat-img{
-	background-image: url("imgs/coat-img.jpg");
+.dress-img{
+	background-image: url("../img/dress.jpg");
+	background-position: center;
 }
 
-.shirt-img{
-	background-image: url("imgs/shirt-img.jpg");
+.shoes-img{
+	background-image: url("../img/shoes.jpg");
+	background-position: center;
 }
 
-.shoe-img{
-	background-image: url("imgs/shoe-img.jpg");
+.acc-img{
+	background-image: url("../img/accesories.jpg");
+	background-position: bottom;
 }
 
 .banner-text{
@@ -159,7 +155,7 @@ nav{
 #logo-main{
 	display: inline-block;
 	width: auto;
-	font-size: 38px;
+	font-size: 50px;
 	color: rgb(54, 54, 54);
 	margin: 40px 0;
 }
@@ -256,10 +252,9 @@ nav{
 .category-img{
 	display: inline-block;
 	position: relative;
-	width: 25%;
+	width: 24%;
 	padding-bottom: 25%;
 	box-sizing: border-box;
-	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border: solid white 4px;
@@ -292,7 +287,7 @@ nav{
 
 .footer-col{
 	display: inline-block;
-	width: 25%;
+	width: 24%;
 	vertical-align: top;
 }
 
@@ -345,7 +340,7 @@ nav{
 #social-cont{
 	display: block;
 	position: relative;
-	left: -15%;
+	left: -10%;
 	width: 130%;
 	height: 35px;
 	margin-top: 20px;
@@ -788,7 +783,7 @@ nav{
 	background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("imgs/Symbol1.png");
+    background-image: url("../img/hero1.jpg");
 }
 
 #home-hero-text-cont{
@@ -814,22 +809,27 @@ nav{
 	margin: 75px 15%;
 }
 
+.shell-1{
+	width: 70%;
+	margin: 75px 20%;
+}
+
 .home-set-1{
 	display: inline-block;
 	position: relative;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 #home-img-1{
-	background-image: url("imgs/Symbol4.png");
+	background-image: url("../img/home1.jpg");
 	width: 25%;
 	padding-bottom: 35%;
 	vertical-align: top;
 }
 
 #home-img-2{
-	background-image: url("imgs/Symbol3.png");
+	background-image: url("../img/home2.jpg");
 	width: 27.25%;
 	padding-bottom: 35%;
 	margin: 0 1.25%;
@@ -837,19 +837,19 @@ nav{
 }
 
 #home-img-3{
-	background-image: url("imgs/Symbol2.png");
-	width: 45.25%;
+	background-image: url("../img/home3.jpeg");
+	width: 39.25%;
 	padding-bottom: 35%;
 	vertical-align: top;
 	text-align: left;
 }
 
 #home-img-4{
-	background-image: url("imgs/Symbol6.png");
+	background-image: url("../img/product1.png");
 	background-position: 100% 50%;
 	width: 30.25%;
-	padding-bottom: 35%;
-	margin-right: 4.75%;
+	padding-bottom: 65%;
+	margin-right: 3.75%;
 	vertical-align: top;
 }
 
